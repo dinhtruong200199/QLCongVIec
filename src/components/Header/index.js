@@ -21,7 +21,7 @@ function Header({ title, onBack }) {
   return (
     <SafeAreaView>
       <View style={styles.container}>
-        {checkVisibleBackBtn}
+        {checkVisibleBackBtn()}
         <Text style={styles.title}>{title}</Text>
       </View>
     </SafeAreaView>
